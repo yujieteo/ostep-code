@@ -1,5 +1,5 @@
 
-all: q1
+all: q3
 
 clean:
 	rm -f p1 p2 p3 p4 q1
@@ -18,3 +18,6 @@ p4: p4.c
 
 q1: q1.c
 	gcc -o q1 q1.c -Wall -pedantic -std=iso9899:1999 -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wconversion
+
+q3: q3.c
+	gcc -o q3 q3.c -Wall -pedantic -std=iso9899:1999 -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wconversion
